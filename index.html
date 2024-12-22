@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Casian Bobotan">
+  <meta name="keywords" content="ONG, animale, adopție, sterilizare, îngrijire animale, Misiunea 4 Lăbuțe">
+  <meta name="description"
+    content="Misiunea 4 Lăbuțe este o organizație nonprofit dedicată protejării animalelor fără stăpân din România prin acțiuni de salvare, sterilizare și adopție. Oferim resurse și informații utile despre îngrijirea animalelor și procesul de adopție.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Misiunea 4 Lăbuțe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="path/to/bootstrap.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300;400;700&display=swap" rel="stylesheet">
+
+
+  <style>
+    body {
+      font-family: 'Parkinsans', sans-serif;
+    }
+
+
+    .navbar-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #333;
+      margin: 0 auto;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    }
+
+    h2 {
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 1.25rem;
+    }
+
+    .container p {
+      color: #555;
+    }
+
+    .social-icons {
+      margin-top: 10px;
+    }
+
+    .social-icons a {
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    .social-icons img {
+      width: 30px;
+      height: 30px;
+    }
+
+
+    .shadow-custom {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .shadow-custom:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25), 0 8px 25px rgba(0, 0, 0, 0.22);
+    }
+
+    footer {
+      background-color: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#index.html">
+        <img src="logo-site.png" alt="logo-ul site-ului">
+      </a>
+      <h1 class="navbar-title text-uppercase text-center">Misiunea 4 Lăbuțe</h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link active" aria-current="page" href="#despre">Despre noi</a>
+          <a class="nav-link" href="#programe">Programele noastre</a>
+          <a class="nav-link" href="#team">Team</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div id="pozeCarusel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="carusel1.jpg" class="d-block w-100" alt="fotografie cu 4 voluntari">
+        <div class="carousel-caption">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="carusel2.jpg" class="d-block w-100" alt="fotografie un pug ce stǎ cu botul pe labe">
+        <div class="carousel-caption">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="carusel3.jpg" class="d-block w-100" alt="fotografie cu o pisicǎ la consultație">
+        <div class="carousel-caption">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="carusel4.jpg" class="d-block w-100" alt="fotografie cu un câine la spa">
+        <div class="carousel-caption">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="carusel5.jpg" class="d-block w-100" alt="fotografie cu 4 voluntari">
+        <div class="carousel-caption">
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#pozeCarusel"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#pozeCarusel"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+
+
+
+  <section id="despre" class="my-5">
+    <div class="container">
+      <h2 class="text-center text-uppercase mb-4 fw-bold">Despre Noi</h2>
+      <p class="text-center mb-5 fs-5">
+        Suntem dedicați protejării și îmbunătățirii vieții animalelor fără stăpân, oferind adăpost, îngrijire și o șansă
+        la un cămin iubitor. Credem în implicarea comunității și în educarea oamenilor despre responsabilitatea față de
+        animale.
+      </p>
+      <div class="row text-center">
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm border-0 rounded-3 h-100">
+            <h3 class="card-header bg-light text-black mb-0">Istoric</h3>
+            <div class="card-body">
+              <p class="card-text">
+                În 2015, Misiunea 4 Lăbuțe a luat ființă din dorința unui grup de voluntari pasionați, hotărâți să facă o
+                schimbare reală pentru animalele abandonate din România. Cu resurse limitate, dar cu o dedicare
+                extraordinară, am început să organizăm acțiuni de salvare, înființând primele campanii de sterilizare și
+                oferind ajutor animalelor nevoiașe.
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm border-0 rounded-3 h-100">
+            <h3 class="card-header bg-light text-black mb-0">Misiunea Noastră</h3>
+            <div class="card-body">
+              <p class="card-text">
+                Misiunea noastră este simplă și clară: să contribuim la reducerea numărului animalelor abandonate și să le
+                oferim o viață mai bună. Această misiune presupune nu doar salvarea animalelor aflate în pericol, dar și
+                prevenirea suferinței acestora prin intervenții prompte și eficiente.
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-sm border-0 rounded-3 h-100">
+            <h3 class="card-header bg-light text-black mb-0">Viziune și Valori</h3>
+            <div class="card-body">
+              <p class="card-text">
+                Viziunea noastră este de a crea o lume în care animalele sunt respectate și iubite, iar oamenii sunt
+                conștienți de importanța protecției acestora. Ne dorim să trăim într-o societate în care animalele nu sunt
+                considerate obiecte sau bunuri, ci ființe vii care merită o viață fericită și sănătoasă.
+              </p>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+    
+
+
+    <div class="container mt-5">
+      <div class="row">
+    
+        <div class="col-md-6 mb-3 px-3">
+          <img src="despre2.jpg" alt="Mâini care se unesc simbolizând unitate" class="img-fluid rounded shadow-custom">
+        </div>
+    
+        <div class="col-md-6 mb-3 px-3">
+          <img src="despre1.jpg" alt="Două mâini ce țin 2 piese de puzzle și urmează a fi unite" class="img-fluid rounded shadow-custom">
+        </div>
+    
+      </div>
+    </div>
+    
+
+  </section>
+
+
+
+  <section id="programe" class="my-5">
+    <div class="container">
+      <h2 class="text-center text-uppercase mb-4">Programele Noastre</h2>
+      <div class="row">
+        <div class="col-md-3 mb-4">
+          <div class="card h-100 d-flex flex-column">
+            <img src="prog1.jpg" class="card-img-top" alt="Salvarea câinilor abandonați">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <h3 class="card-title">Salvarea Abandonaților</h3>
+              <p class="card-text">Oferim salvarea animalelor abandonate de pe străzi, acordându-le adăpost și îngrijire
+                medicală.</p>
+              <span class="badge bg-danger align-self-start">Urgent</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <div class="card h-100 d-flex flex-column">
+            <img src="prog2.jpg" class="card-img-top" alt="Campanii de sterilizare">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <h3 class="card-title">Campanii de Sterilizare</h3>
+              <p class="card-text">Organizăm campanii gratuite de sterilizare pentru a reduce numărul de animale
+                abandonate.</p>
+              <span class="badge bg-warning align-self-start">Prevenire</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <div class="card h-100 d-flex flex-column">
+            <img src="prog3.jpg" class="card-img-top" alt="Adopții Responsabile">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <h3 class="card-title">Adopții Responsabile</h3>
+              <p class="card-text">Promovăm adopția responsabilă a animalelor, asigurându-ne că ajung în familii
+                iubitoare.</p>
+              <span class="badge bg-success align-self-start">Adopție</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <div class="card h-100 d-flex flex-column">
+            <img src="prog4.jpg" class="card-img-top" alt="Consultanță pentru îngrijirea animalelor">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <h3 class="card-title">Îngrijirea Animalelor</h3>
+              <p class="card-text">Oferim consultanță pentru îngrijirea corespunzătoare a animalelor de companie,
+                inclusiv alimentație și igienă.</p>
+              <span class="badge bg-info align-self-start">Consultanță</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="my-5">
+      <h3 class="text-center mb-4">Susțineți Programele Noastre</h3>
+      <p class="text-center mb-4 fs-5">Ajutați-ne să continuăm munca noastră pentru animale printr-o donație. Alegeți
+        metoda preferată și contribuiți la o cauză nobilă!</p>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 d-flex flex-column text-center">
+            <div class="card-body flex-grow-1">
+              <h4 class="card-title mb-3">Transfer Bancar</h4>
+              <p class="card-text">Donați direct în contul nostru bancar:</p>
+              <ul class="list-unstyled">
+                <li><strong>Banca:</strong> Banca Transilvania</li>
+                <li><strong>IBAN:</strong> RO49 BTRL XXXX XXXX XXXX XXXX</li>
+                <li><strong>Cod SWIFT:</strong> BTRLRO22</li>
+              </ul>
+            </div>
+            <div class="mt-3 mb-3">
+              <a href="https://www.bancatransilvania.ro/" target="_blank" class="btn btn-primary w-75 mx-auto py-2">
+                Vizitați Banca Transilvania
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 d-flex flex-column text-center">
+            <div class="card-body flex-grow-1">
+              <h4 class="card-title mb-3">PayPal</h4>
+              <p class="card-text">Donați rapid și sigur prin PayPal:</p>
+            </div>
+            <div class="mt-3 mb-3">
+              <a href="https://www.paypal.com/donate/" target="_blank" class="btn btn-warning w-75 mx-auto py-2">
+                Donați prin PayPal
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 d-flex flex-column text-center">
+            <div class="card-body flex-grow-1">
+              <h4 class="card-title mb-3">Revolut</h4>
+              <p class="card-text">Folosiți Revolut pentru a contribui la cauză:</p>
+              <p><strong>Telefon:</strong> +40 712 345 678</p>
+            </div>
+            <div class="mt-3 mb-3">
+              <a href="https://www.revolut.com/" target="_blank" class="btn btn-success w-75 mx-auto py-2">
+                Donați prin Revolut
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <section id="team" class="my-5">
+    <div class="container">
+      <h2 class="text-center text-uppercase mb-4 fw-bold">Echipa Noastră</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-custom rounded d-flex flex-column h-100">
+            <img src="team1.jpg" class="card-img-top rounded-top" alt="Maria Popescu, membră a echipei">
+            <div class="card-body text-center">
+              <h3 class="card-title">Maria Popescu</h3>
+              <p class="card-text">Coordonator general, cu o pasiune pentru protecția animalelor și implicarea comunitară.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-custom rounded d-flex flex-column h-100">
+            <img src="team2.jpg" class="card-img-top rounded-top" alt="Andrei Ionescu, membru a echipei">
+            <div class="card-body text-center">
+              <h3 class="card-title">Andrei Ionescu</h3>
+              <p class="card-text">Veterinar dedicat, mereu gata să ofere îngrijire animalelor în nevoie.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-custom rounded d-flex flex-column h-100">
+            <img src="team3.jpg" class="card-img-top rounded-top" alt="Elena Dobre, membră a echipei">
+            <div class="card-body text-center">
+              <h3 class="card-title">Elena Dobre</h3>
+              <p class="card-text">Specialist în adopții responsabile, asigurând potrivirea perfectă între familii și animale.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-custom rounded d-flex flex-column h-100">
+            <img src="team4.jpg" class="card-img-top rounded-top" alt="Cristina Pavel, membră a echipei">
+            <div class="card-body text-center">
+              <h3 class="card-title">Cristina Pavel</h3>
+              <p class="card-text">Responsabilă pentru campaniile de educare și conștientizare în comunitate.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-custom rounded d-flex flex-column h-100">
+            <img src="team5.jpg" class="card-img-top rounded-top" alt="Mihai Popa, membru a echipei">
+            <div class="card-body text-center">
+              <h3 class="card-title">Mihai Popa</h3>
+              <p class="card-text">Voluntar pasionat, implicat activ în acțiuni de salvare și adăpost.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card shadow-custom rounded d-flex flex-column h-100">
+            <img src="team6.jpg" class="card-img-top rounded-top" alt="Ana Stanciu, membră a echipei">
+            <div class="card-body text-center">
+              <h3 class="card-title">Ana Stanciu</h3>
+              <p class="card-text">Consultant în strângeri de fonduri, sprijinind ONG-ul să-și atingă obiectivele.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+  <section id="contact" class="my-5">
+    <div class="container">
+      <h2 class="text-center text-uppercase mb-4">Contactați-ne</h2>
+
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="card shadow-sm d-flex h-100">
+            <div class="card-body">
+              <h3 class="card-title text-center mb-3">Informații de Contact</h3>
+              <p><strong>Telefon:</strong> +40 712 345 678</p>
+              <p><strong>Email:</strong> misiunea4labute@contact.ro</p>
+              <p><strong>Program de lucru:</strong> Luni - Vineri, 09:00 - 17:00</p>
+              <p><strong>Adresă:</strong> Strada Traian Moșoiu 71, Cluj-Napoca, România</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+          <div class="card shadow-sm d-flex h-100">
+            <div class="card-body p-0">
+              <h3 class="card-title text-center mb-3">Harta Noastră</h3>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.647815817322!2d23.6073491!3d46.771837999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490c2321652047%3A0x26c7a15ac3b3be71!2sFacultatea%20de%20%C8%98tiin%C8%9Be%20Politice%2C%20Administrative%20%C8%99i%20ale%20Comunic%C4%83rii!5e0!3m2!1sro!2sro!4v1734876123105!5m2!1sro!2sro"
+                width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-12">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h3 class="card-title text-center mb-3">Trimite-ne un mesaj</h3>
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Nume</label>
+                  <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Mesaj</label>
+                  <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Trimite</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="bg-light py-4">
+    <div class="container text-center">
+      <p>&copy; 2024 Misiunea 4 Lăbuțe. Toate drepturile rezervate.</p>
+      <p>Email: misiunea4labute@contact.ro</p>
+      <p>Telefon: +40712345678</p>
+      <div class="d-flex justify-content-center">
+        <a href="https://www.facebook.com" target="_blank" class="mx-3">
+          <img src="facebook.png" alt="Facebook" class="img-fluid">
+        </a>
+        <a href="https://www.instagram.com" target="_blank" class="mx-3">
+          <img src="instagram.png" alt="Instagram" class="img-fluid">
+        </a>
+        <a href="https://twitter.com" target="_blank" class="mx-3">
+          <img src="twitter.png" alt="Twitter" class="img-fluid">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
